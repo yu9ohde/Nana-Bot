@@ -13,8 +13,8 @@ from urllib.error import HTTPError
 from pySmartDL import SmartDL
 from pyrogram import filters
 
-from nana import app, Command
-from .downloads import humanbytes
+from userge import app, Command
+from downloads import humanbytes
 
 
 async def subprocess_run(cmd, megadl):
